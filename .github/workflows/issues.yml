@@ -10,4 +10,5 @@ jobs:
           echo "Issue body: ${{ toJson(github.event.issue.body) }}"
           echo "Issue number: ${{ toJson(github.event.issue.number) }}"
           echo "Issue URL: ${{ toJson(github.event.issue.html_url) }}"
+          echo "Issue state: ${{ toJson(github.event)}}"
 
