@@ -3,9 +3,9 @@ name: Deployment Exercise 1
 on:
   pull_request:
     types: opened
-    push:
-      branches:
-        - newbranch
+  push:
+    branches:
+      - newbranch
 jobs:
   deploy:
     runs-on: ubuntu-latest
